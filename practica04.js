@@ -1,6 +1,7 @@
 function inici() {
     var inputNombre = document.forms["formulari"]["inputNombre"];
     inputNombre.addEventListener("keypress", checkNombre, false);
+    console.log("Soy Marc");
 }
 function checkNombre(event) {
     var inputNombre = event.target;
