@@ -2,6 +2,7 @@
 function inici() {
     let inputNombre = <HTMLInputElement>document.forms["formulari"]["inputNombre"];
     inputNombre.addEventListener("keypress",checkNombre,false);
+	console.log("Hola Andrea")
 }
 function checkNombre(event){
     let inputNombre =<HTMLInputElement>event.target;
