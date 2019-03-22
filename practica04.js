@@ -19,6 +19,7 @@ function checkNombreForm(inputNombre) {
         //correcte
         span.innerHTML = "OK";
         return true;
+		console.log("soy manpreet);
     }
 }
 function validaForm() {
