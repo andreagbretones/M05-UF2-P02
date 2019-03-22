@@ -8,6 +8,7 @@ function checkNombre(event) {
     console.log(event.keyCode);
     console.log(inputNombre.value);
     checkNombreForm(inputNombre);
+	console.log("Soy Andrea");
 }
 function checkNombreForm(inputNombre) {
     var span = inputNombre.nextElementSibling;
