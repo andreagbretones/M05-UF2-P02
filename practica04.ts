@@ -9,7 +9,7 @@ function checkNombre(event){
     console.log(event.keyCode);
     console.log(inputNombre.value);
     checkNombreForm(inputNombre);
-  
+    console.log("Hola Andrea")
 }
 function checkNombreForm(inputNombre){
     let span = inputNombre.nextElementSibling;
