@@ -1,13 +1,14 @@
 function inici() {
     var inputNombre = document.forms["formulari"]["inputNombre"];
     inputNombre.addEventListener("keypress", checkNombre, false);
-    console.log("Soy Marc");
+    console.log("Soy Marc2");
 }
 function checkNombre(event) {
     var inputNombre = event.target;
     console.log(event.keyCode);
     console.log(inputNombre.value);
     checkNombreForm(inputNombre);
+	console.log("Soy Andrea");
 }
 function checkNombreForm(inputNombre) {
     var span = inputNombre.nextElementSibling;
@@ -20,6 +21,7 @@ function checkNombreForm(inputNombre) {
         //correcte
         span.innerHTML = "OK";
         return true;
+		console.log("soy manpreet);
     }
 }
 function validaForm() {
